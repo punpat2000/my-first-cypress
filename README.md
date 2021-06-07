@@ -14,3 +14,4 @@ yarn cypress:open
 * <https://filiphric.com/cypress-basics-selecting-elements>
 * <https://github.com/cypress-io/eslint-plugin-cypress#readme>
 * <https://docs.cypress.io/api/commands/type#Usage>
+* <https://mayukh-nath.medium.com/cypress-setup-with-typescript-330b39d806a>
