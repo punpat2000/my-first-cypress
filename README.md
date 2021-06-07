@@ -17,3 +17,4 @@ yarn cypress:open
 * <https://mayukh-nath.medium.com/cypress-setup-with-typescript-330b39d806a>
 * <https://docs.cypress.io/guides/references/configuration#cypress-json>
 * <https://docs.cypress.io/guides/references/best-practices>
+* <https://www.cypress.io/blog/2020/07/22/do-not-get-too-detached/#detached-elements>
