@@ -15,3 +15,4 @@ yarn cypress:open
 * <https://github.com/cypress-io/eslint-plugin-cypress#readme>
 * <https://docs.cypress.io/api/commands/type#Usage>
 * <https://mayukh-nath.medium.com/cypress-setup-with-typescript-330b39d806a>
+* <https://docs.cypress.io/guides/references/configuration#cypress-json>
