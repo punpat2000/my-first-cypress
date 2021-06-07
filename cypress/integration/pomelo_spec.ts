@@ -1,6 +1,6 @@
 describe('Checkout Cart', () => {
 	it('visits Pomelo website', () => {
-		cy.visit('https://www.pomelofashion.com/th/en');
+		cy.visit('/');
 	});
 
 	it('clicks login button', () => {
