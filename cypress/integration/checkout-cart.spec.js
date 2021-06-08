@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Checkout Cart', () => {
 	it('visits Pomelo website', () => {
 		cy.visit('/');
@@ -17,6 +19,6 @@ describe('Checkout Cart', () => {
 	});
 
 	it('navigates to all clothing section', () => {
-		cy.get('[data-cy=nav_desktop__shop]').click();
+		cy.get('li[data-cy="nav_desktop__shop"]', { timeout: 10000 }).click();
 	})
 });
