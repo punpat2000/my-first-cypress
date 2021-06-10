@@ -4,5 +4,5 @@
     "lib": ["es5", "dom"],
     "types": ["cypress"]
   },
-  "include": ["**/*.ts", "cypress/integration/checkout-cart.spec.js"]
+  "include": ["**/*.ts", "cypress/integration/checkout-cart.spec.js", "cypress/integration/sample.spec.js", "cypress/integration/spec.js"]
 }
