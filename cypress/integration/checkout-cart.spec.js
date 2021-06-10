@@ -1,4 +1,5 @@
 /// <reference types="Cypress" />
+import 'cypress-wait-until';
 
 describe('Checkout Cart', () => {
 	it('visits Pomelo website', () => {
@@ -19,6 +20,12 @@ describe('Checkout Cart', () => {
 	});
 
 	it('navigates to all clothing section', () => {
-		cy.get('li[data-cy="nav_desktop__shop"]', { timeout: 10000 }).click();
-	})
+		cy.waitUntil(() =>
+			cy.getCookie('token').then((cookie) => !!(cookie && cookie.value))
+		);
+		// cy.wait(10000);
+		cy.get('li[data-cy=nav_desktop__shop]', {
+			timeout: 10000,
+		}).click();
+	});
 });
