@@ -1,3 +1,5 @@
 {
-    "baseUrl": "https://www.pomelofashion.com/th/en"
+    "baseUrl": "https://www.pomelofashion.com/th/en",
+    "viewportHeight": 1080,
+    "viewportWidth": 1920
 }
