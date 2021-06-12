@@ -20,4 +20,6 @@ yarn cypress:open
 * <https://www.cypress.io/blog/2020/07/22/do-not-get-too-detached/#detached-elements>
 * <https://github.com/cypress-io/cypress/issues/1379>
 * <https://github.com/cypress-io/cypress/issues/8074>
-* <>
+* <https://stackoverflow.com/questions/64421563/cypress-wait-for-unpredictable-component-to-render-from-an-exclusive-set>
+* <https://docs.cypress.io/api/commands/clearcookies>
+* <https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Configuring-Folder-Structure>
