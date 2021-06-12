@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('simpleClick', (path, timeout = 10000) => {
+	return cy
+		.get(path, {
+			timeout: timeout,
+		})
+		.should('be.visible')
+		.click();
+});
